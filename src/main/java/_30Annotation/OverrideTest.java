@@ -1,4 +1,4 @@
-package _29MultiThread._30Annotation;
+package _30Annotation;
 
 class Animal{
     public void run(){

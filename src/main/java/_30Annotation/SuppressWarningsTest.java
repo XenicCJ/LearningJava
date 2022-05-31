@@ -1,4 +1,4 @@
-package _29MultiThread._30Annotation;
+package _30Annotation;
 
 public class SuppressWarningsTest {
     //加入注解忽略不建议使用方法、未使用的警告、通过实例引用静态方法警告
