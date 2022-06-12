@@ -20,6 +20,9 @@ public class MysqlConnectTest {
     static final String USER = "root";
     static final String PASS = "Xcjxiansheng1996";
 
+    /**
+     * 创建表测试
+     */
     private void createTableTest(){
         Connection conn = null;
         Statement stmt = null;
@@ -66,6 +69,9 @@ public class MysqlConnectTest {
         }
     }
 
+    /**
+     * 插入数据测试
+     */
     private void insertTableTest(){
         Connection conn = null;
         Statement stmt = null;
@@ -109,6 +115,9 @@ public class MysqlConnectTest {
         }
     }
 
+    /**
+     * 读取数据测试
+     */
     private void readTableTest(){
         Connection conn = null;
         Statement stmt = null;
